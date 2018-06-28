@@ -1,0 +1,62 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://doc.scrapy.org/en/latest/topics/items.html
+
+from scrapy import Item, Field
+
+
+class HouseListItem(Item):
+    pictureCount = Field()
+    promotionPicUrl = Field()
+    defaultPicUrl = Field()
+    smallPictureUrl = Field()
+    pictureList = Field()
+    hightLightText = Field()
+    geoCoordSysType = Field()
+    commentTotalCount = Field()
+    commentOverallScore = Field()
+    unitId = Field()
+    unitName = Field()
+    districtName = Field()
+    longitude = Field()
+    latitude = Field()
+    address = Field()
+    unitBriefInfo = Field()
+    unitTagsBitValue = Field()
+    unitDetailLink = Field()
+    priceMissingText = Field()
+    disallowBookingTip = Field()
+    allowBooking = Field()
+    unitInfor = Field()
+    districtId = Field()
+    distance = Field()
+    sweetomeHotel = Field()
+    inTns = Field()
+    isActive = Field()
+    unitLevel = Field()
+    cityId = Field()
+    cityName = Field()
+    activityInfo = Field()
+    unitVRURL = Field()
+    unitVideoURL = Field()
+    unitVideoTimeSpan = Field()
+    failType = Field()
+    adverUnit = Field()
+    isGreat = Field()
+    price = Field()
+    roomCountShortSummary = Field()
+    bedCount = Field()
+    houseModel = Field()
+    area = Field()
+    occupantCapacity = Field()
+    houseType = Field()
+    fromTNS = Field()
+    productPriceList = Field()
+    active = Field()
+    unitID = Field()
+    unitSummary = Field()
+    defaultPictureURL = Field()
+    promotionPicUr = Field()
